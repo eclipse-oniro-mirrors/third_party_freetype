@@ -42,6 +42,7 @@ def move_file(src_path, dst_path, cfp_enable):
         "CVE-2026-23865.patch",
         "backport-truetype-signed-integer-overflow.patch",
         "backport-autofit-signed-integer-overflow.patch",
+        "CVE-2026-95512.patch",
         "ftconfig.h"
     ]
 
@@ -84,7 +85,8 @@ def do_patch(target_dir, cfp_enable):
         "backport-freetype-2.12.1-enable-funcs.patch",
         "CVE-2026-23865.patch",
         "backport-truetype-signed-integer-overflow.patch",
-        "backport-autofit-signed-integer-overflow.patch"
+        "backport-autofit-signed-integer-overflow.patch",
+        "CVE-2026-95512.patch"
     ]
 
     if cfp_enable:
